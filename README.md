@@ -39,7 +39,7 @@ pip install matplotlib
 
 #### 2. 配置谜题
 
-在 `solve.py` 中修改 `rows`（行提示）和 `columns`（列提示）：
+在 `Nonogram-Solver.py` 中修改 `rows`（行提示）和 `columns`（列提示）：
 
 ```python
 columns = [[4], [2], [1, 1], ...]
@@ -52,7 +52,7 @@ rows = [[1, 5], [1, 3], [4], ...]
 执行主脚本，解题器将自动开始推导并弹出交互式可视化窗口：
 
 ```bash
-python solve.py
+python Nonogram-Solver.py
 
 ```
 
@@ -62,7 +62,6 @@ python solve.py
 
 * `solve.py`: 包含核心解题逻辑与算法。
 * `show.py`: (外部模块) 负责解题步骤的动态渲染与交互界面展示。
-* `.gitignore`: 已配置忽略 `.venv` 与 `__pycache__` 等冗余文件。
 
 ---
 
